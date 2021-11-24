@@ -632,7 +632,7 @@ footer h5{
 	opacity: 1;
 	transform: translateY(0px);
 }
-@media screen and (min-width: 500px), screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px){
   .transition h1{
     font-size: 3rem;
   }
@@ -678,4 +678,4 @@ footer h5{
 	.skills h3 span{
 		font-size: 1rem;
 	}
-}
+}*/
