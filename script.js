@@ -18,7 +18,7 @@ function AnimationScroll() {
 // Function for conditioning scroll event
 function isVisable(element) {
   const elementPosition = element.getBoundingClientRect();
-  let distanceFromTop = -150;
+  let distanceFromTop = -120;
   
   return elementPosition.top - window.innerHeight < distanceFromTop ? true:false;
 }

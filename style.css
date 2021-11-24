@@ -422,7 +422,7 @@ nav ul li a{
   font-family: 'Helvetica', sans-serif;
 }
 .skills h1{
-  font-size: 5rem;
+  font-size: 3.5rem;
   font-family: 'Monument', sans-serif;
   color: ghostwhite;
   width: 40%;
@@ -435,7 +435,7 @@ nav ul li a{
 .skills h3{
   display: block;
   margin: 1rem;
-  font-size: 2.5rem;
+  font-size: 2.1rem;
 }
 .skills h3 span{
   color: #FFF3E5;
@@ -501,7 +501,7 @@ footer h5{
 		flex-direction: column;
 	}
 	.hero-content h1{
-		font-size: 2.3rem;
+		font-size: 2.1rem;
 	}
 	.hero-text{
 		position: relative;
@@ -509,7 +509,7 @@ footer h5{
 		margin-top: 4rem;
 	}
 	.hero-text h5{
-		font-size: 0.9rem;
+		font-size: 0.8rem;
 	}
 	.get-in-touch{
 		font-size: 0.8rem;
@@ -527,6 +527,7 @@ footer h5{
 		width: 100%;
 		flex-direction: column;
 		height: 65vh;
+		margin: 2rem 0;
 	}
 	.doings:nth-child(odd){
 		flex-direction: column;
@@ -629,4 +630,46 @@ footer h5{
 .show-elements{
 	opacity: 1;
 	transform: translateY(0px);
+}
+@media screen and (min-width: 500px),and (max-width: 768px) {
+  
+	.hero-container{
+		padding: 0rem 2rem;
+	}
+	.hero-text{
+		max-width: 40%;
+	}
+	nav{
+		padding: 2rem;
+	}
+	.doings-container{
+		padding: 2rem;
+	}
+	.featured-container{
+		padding: 2rem;
+	}
+	.featured{
+		width: 44%;
+	}
+	.contact-container{
+		padding: 2rem;
+	}
+	.contact-container h1{
+		font-size: 3.5rem;
+	}
+	footer{
+		padding: 1.2rem 2rem;
+	}
+	.skills h1{
+		font-size: 2.5rem;
+	}
+	.skills div{
+		padding-left: 1.2rem;
+	}
+	.skills h3{
+		font-size: 1.2rem;
+	}
+	.skills h3 span{
+		font-size: 1rem;
+	}
 }
