@@ -527,7 +527,7 @@ footer h5{
 		width: 100%;
 		flex-direction: column;
 		height: 65vh;
-		margin: 2rem 0;
+		margin: 3rem 0;
 	}
 	.doings:nth-child(odd){
 		flex-direction: column;
@@ -632,7 +632,9 @@ footer h5{
 	transform: translateY(0px);
 }
 @media screen and (min-width: 500px),and (max-width: 768px) {
-  
+  .transition h1{
+    font-size: 3rem;
+  }
 	.hero-container{
 		padding: 0rem 2rem;
 	}
