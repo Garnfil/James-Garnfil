@@ -304,7 +304,7 @@ nav ul li a{
 }
 .featured-image{
   width: 100%;
-  height: 28vh;
+  height: 34vh;
   background: ghostwhite;
   overflow: hidden;
   transition: transform 0.9s;
@@ -410,7 +410,7 @@ nav ul li a{
   padding-bottom: 2rem;
 }
 .about-header h3{
-  font-size: 5rem;
+  font-size: 3.5rem;
   font-family: 'Helvetica', sans-serif;
   color: ghostwhite;
   padding: 3rem 0;
@@ -423,7 +423,7 @@ nav ul li a{
 }
 .about-content h3{
   color: ghostwhite;
-  font-size: 5rem;
+  font-size: 3.5rem;
   font-family: 'Helvetica', sans-serif;
 }
 .skills h1{
