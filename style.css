@@ -149,7 +149,7 @@ nav ul li a{
 .hero-text h5{
   font-family: 'Helvetica', sans-serif;
   line-height: 25px;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 .get-in-touch{
   position: absolute;
@@ -209,14 +209,14 @@ nav ul li a{
   overflow: hidden;
 }
 .doings-image img{
-  width: 85%;
-  height: 85%;
+  width: 75%;
+  height: 75%;
   object-fit: cover;
   animation: image-do 5.5s ease-in-out 1;
   transition: transform 0.9s;
 }
 .doings-image img:hover{
-  transform: scale(2,2);
+  transform: scale(1.5,1.5);
 }
 @keyframes image-do {
   0%{
