@@ -562,6 +562,9 @@ footer h5{
 	.featured{
 		width: 100%;
 	}
+	.featured-image{
+	  height: 27vh;
+	}
 	.featured-text h1{
 		font-size: 1.5rem;
 	}
@@ -637,50 +640,3 @@ footer h5{
 	opacity: 1;
 	transform: translateY(0px);
 }
-/*@media screen and (max-width: 768px){
-  .transition h1{
-    font-size: 3rem;
-  }
-	.hero-container{
-		padding: 0rem 2rem;
-	}
-	.hero-text{
-		max-width: 40%;
-	}
-	.hero-content h1{
-	  font-size: 3rem;
-	}
-	nav{
-		padding: 2rem;
-	}
-	.doings-container{
-		padding: 2rem;
-	}
-	.featured-container{
-		padding: 2rem;
-	}
-	.featured{
-		width: 44%;
-	}
-	.contact-container{
-		padding: 2rem;
-	}
-	.contact-container h1{
-		font-size: 3.5rem;
-	}
-	footer{
-		padding: 1.2rem 2rem;
-	}
-	.skills h1{
-		font-size: 2.5rem;
-	}
-	.skills div{
-		padding-left: 1.2rem;
-	}
-	.skills h3{
-		font-size: 1.2rem;
-	}
-	.skills h3 span{
-		font-size: 1rem;
-	}
-}*/
